@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="myModule">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class='navbar'>
+      <a href="#!/input">Search</a>
+      <a href="#!/output">Results</a>
+    </div>
+    <ng-view></ng-view>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.4/angular-route.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.js" integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
+    <script src="js/app/module.js"></script>
+    <script src="js/app/config.js"></script>
+    <script src="js/controllers/inputcontroller.js"></script>
+    <script src="js/controllers/outputcontroller.js"></script>
+    <script src="js/services/services.js"></script>
+    <script src="js/directives/directive.js"></script>
+  </body>
+</html>
